@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    background:#4629F2;
+    height: 130px;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.header span {
+    font-family: monospace;
+    color: #ffffff;
+    font-size: 48pt;
+    font-weight: 700;
+
+    margin: auto;
+}
+
+.mesage {
+     
+}
+
+.mesagemset {
+    padding: 20px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    flex-grow: 0;
+}
+
+#emoji {
+    width: 25px;
+    height: 25px;
+
+    margin: 5px;
+    flex-grow: 0;
+}
+
+.mesagemset input {
+    border: #ffffff solid 1px;
+    border-radius: 10px;
+
+    height: 25px;
+
+    margin: 5px 8px;
+    padding: 3px;
+
+    font-size: 15pt;
+
+    flex-grow: 1;
+}
+
+#image {
+    width: 30px;
+    height: 30px;
+
+    margin: 5px;
+    flex-grow: 0;
+
+    opacity: 40%;
+}
+
+.mesagemset button{
+    background: #4629F2;
+    color: #ffffff;
+
+    border: #4629F2 solid 1px;
+    border-radius: 100px;
+    
+
+    font-weight: 400;
+    font-size: 25pt;
+
+    margin: 5px;
+    padding:  5px 10px;
+}
+
+
+#chat {
+    display: flex;
+    flex-direction: column;
+}
